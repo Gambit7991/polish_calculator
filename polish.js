@@ -32,7 +32,7 @@ function calculateTwoElements(first, second, operand){
 
 		return first - second;
 	}else if(operand == "+"){
-		return 1*first + 1*second;
+		return Number(first) + Number(second);
 	}else if(operand == "*"){
 		return first * second;
 	}else if(operand == "/"){
